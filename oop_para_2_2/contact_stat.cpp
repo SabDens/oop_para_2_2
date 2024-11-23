@@ -14,7 +14,7 @@ Contact_stat::Contact_stat()
     std::cin.getline(_country, sizeof(_country));
 }
 Contact_stat::Contact_stat(const char* number, const char* city, const char* country) {
-    for (int i = 0; i < sizeof(_number); ++i) {
+    for (int i = 0; i < sizeof(_number); ++i) { 
         _number[i] = number[i];
     }
     for (int i = 0; i < sizeof(_number); ++i) {

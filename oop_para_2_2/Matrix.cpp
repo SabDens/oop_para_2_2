@@ -13,7 +13,7 @@ Matrix::Matrix(size_t rows, size_t cols)
 	_data = new int* [rows];
 	for (size_t i = 0; i < rows; i++)
 	{
-		_data[i] = new int[cols] {};
+		_data[i] = new int[cols] {}; 
 	}
 }
 

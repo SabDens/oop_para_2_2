@@ -13,6 +13,6 @@ int main()
 	obj1.Init();
 	obj1.Print();*/
 	Contact_stat number;
-	number.Show();
+	number.Show(); 
 	return 0;
 }

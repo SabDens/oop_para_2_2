@@ -12,7 +12,7 @@ public:
 
     size_t GetCols()
     {
-        return _cols;
+        return _cols; 
     }
     void SetCols(size_t value)
     {
